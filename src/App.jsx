@@ -7,7 +7,7 @@ function App() {
       <div>
         <h1>Coming Soon</h1>
         <p>Careful, our website is now under construction</p>
-        <img src="/public/placeholder.png" alt="Human coding icon" style={{width: 120}}/>
+        <img src="/placeholder.png" alt="Human coding icon" style={{width: 120}}/>
       </div>
     </>
   )
