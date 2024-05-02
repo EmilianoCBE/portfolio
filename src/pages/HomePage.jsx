@@ -1,6 +1,7 @@
 import { useRef } from 'react'
 import './HomePage.css'
 import { Navbar } from "../components/Navbar"
+import { Projects } from '../sections/Projects'
 
 export const HomePage = () => {
 
@@ -27,10 +28,7 @@ export const HomePage = () => {
         </div>
       </section>
       <section ref={projectsRef} className='homepage-section' id='projects'>
-        <div>
-          <h1>Proyectos</h1>
-          
-        </div>
+        <Projects />
       </section>
       <section ref={aboutRef} className='homepage-section' id='about'>
         <div>

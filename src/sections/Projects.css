@@ -1,0 +1,18 @@
+img {
+  /* width: 200px; */
+}
+
+.row-projects {
+  /* min-width: 1000px; */
+}
+
+.col-projects {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .row-projects {
+    min-width: 1000px;
+  }
+}
