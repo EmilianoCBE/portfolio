@@ -5,8 +5,8 @@ import '@fontsource-variable/onest';
 function App() {
   return (
     <>
-      <HomePage />
       <div className='stars'></div>
+      <HomePage />
     </>
   );
 }

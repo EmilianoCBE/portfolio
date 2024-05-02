@@ -1,0 +1,32 @@
+label {
+  color: #FFFFFF !important;
+  font-family: 'Onest Variable', sans-serif;
+}
+
+.contact-container {
+  width: 100%;
+}
+
+.space-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.btn-contact {
+  background-color: #171e5c;
+
+  span{
+    font-family: 'Onest Variable', sans-serif;
+    color: #FFFFFF;
+  }
+
+  :hover {
+    color: #171e5c;
+    border-color: #171e5c;
+  }
+
+  :focus {
+    color: #171e5c;
+    border-color: #171e5c;
+  }
+}

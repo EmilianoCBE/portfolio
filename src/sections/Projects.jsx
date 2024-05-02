@@ -7,10 +7,10 @@ const { Meta } = Card;
 
 export const Projects = () => {
   return (
-    <div>
+    <div className="projects-container">
       <h1>Proyectos</h1>
 
-      <Row className="row-projects" gutter={[24, 32]}>
+      <Row className="row-projects" gutter={[16, 32]}>
         {projects.map((project) => (
           <Col xs={24} sm={12} md={8} lg={8} key={project.id} className="col-projects">
             <Card

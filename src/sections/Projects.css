@@ -2,6 +2,10 @@ img {
   /* width: 200px; */
 }
 
+.projects-container {
+  width: 100%;
+}
+
 .row-projects {
   /* min-width: 1000px; */
 }
@@ -11,8 +15,20 @@ img {
   justify-content: center;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .row-projects {
-    min-width: 1000px;
+    min-width: 768;
   }
 }
+
+@media (min-width: 900px) {
+  .row-projects {
+    min-width: 900;
+  }
+}
+
+@media (min-width: 1000px) {
+  .row-projects {
+    min-width: 1000;
+  }
+} */
