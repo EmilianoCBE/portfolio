@@ -3,6 +3,21 @@ label {
   font-family: 'Onest Variable', sans-serif;
 }
 
+.text-contact{
+  padding-bottom: 24px;
+  
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: #FFFFFF;
+    text-decoration: underline;
+    margin: 0 4px;
+  }
+
+}
+
 .contact-container {
   width: 100%;
 }
@@ -29,4 +44,11 @@ label {
     color: #171e5c;
     border-color: #171e5c;
   }
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }

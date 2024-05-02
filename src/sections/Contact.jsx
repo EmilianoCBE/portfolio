@@ -13,6 +13,16 @@ export const Contact = () => {
       vertical
     >
       <h1>Contacto</h1>
+      <div className="text-contact">
+        <p>
+          Puedes encontrarme en mi redes sociales de  
+          <a href="https://github.com/EmilianoCBE" target='_blank'>Github</a> 
+          y
+          <a href="www.linkedin.com/in/emiliano-carrizales" target='_blank'>LinkedIn,</a>
+          y también puedes enviarme un correo electrónico
+        </p>
+      </div>
+      
       <Space direction="vertical" size={16} className="space-container">
         <Card
           style={{
