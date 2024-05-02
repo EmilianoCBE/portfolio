@@ -25,8 +25,12 @@ export const Navbar = () => {
           </ul>
         </div>
         <div className='navbar-icons'>
-          <GithubFilled />
-          <LinkedinFilled />
+          <a href="https://github.com/EmilianoCBE" target='_blank'>
+            <GithubFilled />
+          </a>
+          <a href="www.linkedin.com/in/emiliano-carrizales" target='_blank'>
+            <LinkedinFilled />
+          </a>
         </div>
       </header>
     </div>
