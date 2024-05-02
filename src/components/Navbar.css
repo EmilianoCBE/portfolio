@@ -1,9 +1,17 @@
-.header {
+#navbarDisplay {
+  overflow: hidden;
+  background: transparent;
+  position: fixed;
+}
+
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   color: #FFFFFFD9;
+  z-index: 1000;
+  width: 100%;
 
   a {
     text-decoration: none;
@@ -15,11 +23,11 @@
   }
 }
 
-.header-links {
+.navbar-links {
   display: none;
 }
 
-.header-icons {
+.navbar-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,11 +35,11 @@
 }
 
 @media (min-width: 768px) {
-  .header {
+  .navbar {
     justify-content: space-evenly;
   }
 
-  .header-links {
+  .navbar-links {
     display: flex;
       ul {
         list-style: none;

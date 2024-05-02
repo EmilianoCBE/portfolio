@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import './HomePage.css'
-import { Header } from "../components/Header"
+import { Navbar } from "../components/Navbar"
 
 export const HomePage = () => {
 
@@ -18,7 +18,7 @@ export const HomePage = () => {
 
   return (
     <div>
-      <Header />
+      <Navbar />
       <section ref={heroRef} className='homepage-section' id='hero'>
         <div>
           <h1>Portafolio Personal</h1>
