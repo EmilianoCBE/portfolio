@@ -9,6 +9,7 @@ export const Projects = () => {
   return (
     <div className="projects-container">
       <h1>Proyectos</h1>
+      
 
       <Row className="row-projects" gutter={[16, 32]}>
         {projects.map((project) => (
