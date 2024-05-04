@@ -1,10 +1,18 @@
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import './HomePage.css'
 import { Navbar } from "../components/Navbar"
 import { Projects } from '../sections/Projects'
 import { Contact } from '../sections/Contact'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 export const HomePage = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 2500
+    });
+  })
 
   const heroRef = useRef(null)
   const projectsRef = useRef(null)
@@ -31,13 +39,13 @@ export const HomePage = () => {
       <section ref={projectsRef} className='homepage-section' id='projects' data-aos='fade-up'>
         <Projects />
       </section>
-      <section ref={aboutRef} className='homepage-section' id='about'>
+      <section ref={aboutRef} className='homepage-section' id='about' data-aos='fade-up'>
         <div>
           <h1>Sobre mí</h1>
           
         </div>
       </section>
-      <section ref={contactRef} className='homepage-section' id='contact'>
+      <section ref={contactRef} className='homepage-section' id='contact' data-aos='fade-up'>
         <Contact />
       </section>
     </div>
