@@ -22,13 +22,13 @@ export const HomePage = () => {
     <div>
       <Navbar />
       <section ref={heroRef} className='homepage-section' id='hero'>
-        <div>
+        <div data-aos='fade-up'>
           <h1>Portafolio Personal</h1>
           <h4>Hola, ¿cómo te va?</h4>
           <p>Me llamo <strong>Emiliano</strong> y soy un <strong>Frontend Web Developer</strong></p>
         </div>
       </section>
-      <section ref={projectsRef} className='homepage-section' id='projects'>
+      <section ref={projectsRef} className='homepage-section' id='projects' data-aos='fade-up'>
         <Projects />
       </section>
       <section ref={aboutRef} className='homepage-section' id='about'>
