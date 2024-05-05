@@ -1,5 +1,4 @@
-import { Col, Row, Card } from "antd";
-import { LinkOutlined } from "@ant-design/icons";
+import { Col, Row, Card, Image } from "antd";
 import { projects } from "../utils/projects";
 import "./Projects.css";
 
@@ -14,7 +13,7 @@ export const Projects = () => {
       <Row className="row-projects" gutter={[16, 32]}>
         {projects.map((project) => (
           <Col xs={24} sm={12} md={8} lg={8} key={project.id} className="col-projects">
-            <Card
+            {/* <Card
               style={{
                 width: 250,
                 fontFamily: 'Onest Variable, sans-serif',
@@ -32,7 +31,11 @@ export const Projects = () => {
                 title={project.title}
                 description={project.description}
               />
-            </Card>
+            </Card> */}
+            <img className="img-projects" src={project.img} alt={project.title} />
+            <h4 className="title-projects">
+              {project.title}
+            </h4>
           </Col>
         ))}
       </Row>
