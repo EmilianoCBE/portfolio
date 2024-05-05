@@ -12,7 +12,7 @@ export const Contact = () => {
       gap="middle"
       vertical
     >
-      <h1>Contacto</h1>
+      <h2>Contacto</h2>
       <div className="text-contact">
         <p>
           Puedes encontrarme en mi redes sociales de  

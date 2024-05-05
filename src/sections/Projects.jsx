@@ -8,7 +8,7 @@ const { Meta } = Card;
 export const Projects = () => {
   return (
     <div className="projects-container">
-      <h1>Proyectos</h1>
+      <h2>Proyectos</h2>
       
 
       <Row className="row-projects" gutter={[16, 32]}>

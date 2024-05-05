@@ -5,6 +5,7 @@ import { Projects } from '../sections/Projects'
 import { Contact } from '../sections/Contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import { Experience } from '../sections/Experience'
 
 export const HomePage = () => {
 
@@ -19,12 +20,12 @@ export const HomePage = () => {
   const aboutRef = useRef(null)
   const contactRef = useRef(null)
 
-  const scrollRef = (ref) => {
-    window.scrollTo({
-      top: ref.current.offsetTop,
-      behavior: 'smooth'
-    })
-  }
+  // const scrollRef = (ref) => {
+  //   window.scrollTo({
+  //     top: ref.current.offsetTop,
+  //     behavior: 'smooth'
+  //   })
+  // }
 
   return (
     <div>
@@ -38,6 +39,9 @@ export const HomePage = () => {
       </section>
       <section ref={projectsRef} className='homepage-section' id='projects' data-aos='fade-up'>
         <Projects />
+      </section>
+      <section ref={aboutRef} className='homepage-section' id='experience' data-aos='fade-up'>
+        <Experience />
       </section>
       <section ref={aboutRef} className='homepage-section' id='about' data-aos='fade-up'>
         <div>
