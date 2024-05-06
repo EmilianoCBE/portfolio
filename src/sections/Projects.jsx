@@ -10,7 +10,7 @@ export const Projects = () => {
       <h2>Proyectos</h2>
       
 
-      <Row className="row-projects" gutter={[16, 32]}>
+      <Row className="row-projects" gutter={[16, 16]}>
         {projects.map((project) => (
           <Col xs={24} sm={12} md={8} lg={8} key={project.id} className="col-projects">
             {/* <Card
@@ -32,10 +32,12 @@ export const Projects = () => {
                 description={project.description}
               />
             </Card> */}
-            <img className="img-projects" src={project.img} alt={project.title} />
-            <h4 className="title-projects">
-              {project.title}
-            </h4>
+            <a className="projects-card-container" href={project.url} target="_blank">
+              <img className="img-projects" src={project.img} alt={project.title} />
+              <h4 className="title-projects">
+                {project.title}
+              </h4>
+            </a>
           </Col>
         ))}
       </Row>
