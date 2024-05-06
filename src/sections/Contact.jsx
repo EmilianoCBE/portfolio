@@ -56,7 +56,7 @@ export const Contact = () => {
         </li>
         <li>
           <a href="mailto:e.carrizales1305@gmail.com" target='_blank'>
-            <img src="/mail.png" alt="Linkedin logo" />
+            <img src="/mail.png" alt="Mail logo" />
           </a>
         </li>
       </ul>
