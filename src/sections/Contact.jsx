@@ -46,17 +46,17 @@ export const Contact = () => {
       <ul className="social-contact">
         <li>
           <a href="https://github.com/EmilianoCBE" target='_blank'>
-            <img src="/github.png" alt="Github logo" />
+            <img src="/github.webp" alt="Github logo" />
           </a>
         </li>
         <li>
           <a href="www.linkedin.com/in/emiliano-carrizales" target='_blank'>
-            <img src="/linkedin.png" alt="Linkedin logo" />
+            <img src="/linkedin.webp" alt="Linkedin logo" />
           </a>
         </li>
         <li>
           <a href="mailto:e.carrizales1305@gmail.com" target='_blank'>
-            <img src="/mail.png" alt="Mail logo" />
+            <img src="/mail.webp" alt="Mail logo" />
           </a>
         </li>
       </ul>

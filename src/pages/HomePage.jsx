@@ -29,7 +29,7 @@ export const HomePage = () => {
   // }
 
   return (
-    <div>
+    <>
       <Navbar />
       <section ref={heroRef} className='homepage-section' id='hero'>
         <div data-aos='fade-up'>
@@ -50,6 +50,6 @@ export const HomePage = () => {
       <section ref={contactRef} className='homepage-section' id='contact' data-aos='fade-up'>
         <Contact />
       </section>
-    </div>
+    </>
   )
 }
