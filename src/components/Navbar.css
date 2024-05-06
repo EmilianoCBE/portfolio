@@ -3,6 +3,13 @@
   background: transparent;
   position: fixed;
   width: 100%;
+  z-index: 1000;
+  transition: ease-out 0.5s;
+}
+
+.navBarContainer {
+  background-color: #121221 !important; 
+  transition: ease-in 0.5s;
 }
 
 .navbar {
@@ -11,7 +18,7 @@
   align-items: center;
   padding: 1rem 2rem;
   color: #FFFFFFD9;
-  z-index: 1000;
+  /* z-index: 1000; */
 
   a {
     text-decoration: none;

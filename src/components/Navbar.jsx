@@ -1,10 +1,19 @@
 import { GithubFilled, LinkedinFilled } from '@ant-design/icons'
 import './Navbar.css'
+import { useEffect, useRef, useState } from 'react'
 
 export const Navbar = () => {
 
+  const [scroll, setScroll] = useState(0)  
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 350);
+    });
+  }, []);  
+
   return (
-    <div id='navbarDisplay'>
+    <div id='navbarDisplay' className={scroll ? 'navBarContainer' : ''}>
       <header className='navbar'>
         <div>
           <h3>
