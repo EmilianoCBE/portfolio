@@ -53,3 +53,18 @@ label {
   align-items: center;
   gap: 1rem;
 }
+
+.social-contact {
+  display: flex;
+  gap: 16px;
+  padding: 0;
+
+  li {
+    text-decoration: none;
+  }
+
+  img {
+    width: 48px;
+
+  }
+}

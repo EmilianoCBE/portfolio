@@ -38,14 +38,30 @@ export const Contact = () => {
       <div className="text-contact">
         <p>
           Puedes encontrarme en mi perfil de
-          <a href="https://github.com/EmilianoCBE" target='_blank'>Github</a> 
-          y
-          <a href="www.linkedin.com/in/emiliano-carrizales" target='_blank'>LinkedIn,</a>
-          y también puedes enviarme un correo electrónico
+          Github,
+          LinkedIn,
+          y también puedes enviarme un correo electrónico dando click en los íconos de abajo.
         </p>
       </div>
+      <ul className="social-contact">
+        <li>
+          <a href="https://github.com/EmilianoCBE" target='_blank'>
+            <img src="/github.png" alt="Github logo" />
+          </a>
+        </li>
+        <li>
+          <a href="www.linkedin.com/in/emiliano-carrizales" target='_blank'>
+            <img src="/linkedin.png" alt="Linkedin logo" />
+          </a>
+        </li>
+        <li>
+          <a href="mailto:e.carrizales1305@gmail.com" target='_blank'>
+            <img src="/mail.png" alt="Linkedin logo" />
+          </a>
+        </li>
+      </ul>
       
-      <Space direction="vertical" size={16} className="space-container">
+      {/* <Space direction="vertical" size={16} className="space-container">
         <Card
           style={{
             // width: ,
@@ -81,7 +97,7 @@ export const Contact = () => {
             </Form.Item>
           </Form>
         </Card>
-      </Space>
+      </Space> */}
     </Flex>
   );
 };
