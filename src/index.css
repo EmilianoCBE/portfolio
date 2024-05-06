@@ -1,10 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: 'Onest Variable', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: #FFFFFFD9;
   background-color: #242424;
 
   font-synthesis: none;
@@ -24,13 +29,13 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  /* display: flex; */
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
   background-color: #121221;
   /* background: linear-gradient(#121221, #171e5c); */
-  background: linear-gradient(#121221, #19227d);
+  background: linear-gradient(#121221, #2a37ac);
   color: #ffffff;
 }
 

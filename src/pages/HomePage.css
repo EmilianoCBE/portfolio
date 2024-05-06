@@ -1,0 +1,30 @@
+section {
+  height: 100vh;
+  padding-bottom: 100px;
+}
+
+.homepage-section{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 32px 150px 32px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+
+  .title-hero {
+    color: #FFFFFFD9;
+  }
+
+  .subtitle-hero,
+  .description-hero {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .homepage-section {
+    padding: 32px 32px 32px 32px;
+  }
+}

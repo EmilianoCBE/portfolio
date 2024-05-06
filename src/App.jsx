@@ -1,16 +1,14 @@
-import './App.css'
+import "./App.css";
+import { HomePage } from "./pages/HomePage";
+import "@fontsource-variable/onest";
 
 function App() {
-
   return (
-    <>
-      <div>
-        <h1>Coming Soon</h1>
-        <p>Careful, our website is now under construction</p>
-        <img src="/placeholder.png" alt="Human coding icon" style={{width: 120}}/>
-      </div>
-    </>
-  )
+      <>
+        <div className="stars"></div>
+        <HomePage />
+      </>
+  );
 }
 
-export default App
+export default App;

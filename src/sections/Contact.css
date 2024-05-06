@@ -1,0 +1,70 @@
+label {
+  color: #FFFFFF !important;
+  font-family: 'Onest Variable', sans-serif;
+}
+
+.text-contact{
+  padding-bottom: 24px;
+  max-width: 800px;
+  
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: #FFFFFF;
+    text-decoration: underline;
+    margin: 0 4px;
+  }
+
+}
+
+.contact-container {
+  width: 100%;
+}
+
+.space-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.btn-contact {
+  background-color: #171e5c;
+
+  span{
+    font-family: 'Onest Variable', sans-serif;
+    color: #FFFFFF;
+  }
+
+  :hover {
+    color: #171e5c;
+    border-color: #171e5c;
+  }
+
+  :focus {
+    color: #171e5c;
+    border-color: #171e5c;
+  }
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-contact {
+  display: flex;
+  gap: 16px;
+  padding: 0;
+
+  li {
+    text-decoration: none;
+  }
+
+  img {
+    width: 48px;
+
+  }
+}
