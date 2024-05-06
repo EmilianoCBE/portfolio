@@ -1,6 +1,6 @@
 import { GithubFilled, LinkedinFilled } from '@ant-design/icons'
 import './Navbar.css'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export const Navbar = () => {
 
