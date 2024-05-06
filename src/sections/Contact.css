@@ -5,6 +5,7 @@ label {
 
 .text-contact{
   padding-bottom: 24px;
+  max-width: 800px;
   
   p {
     margin: 0;

@@ -15,7 +15,7 @@ export const Contact = () => {
       <h2>Contacto</h2>
       <div className="text-contact">
         <p>
-          Puedes encontrarme en mi redes sociales de  
+          Puedes encontrarme en mi perfil de
           <a href="https://github.com/EmilianoCBE" target='_blank'>Github</a> 
           y
           <a href="www.linkedin.com/in/emiliano-carrizales" target='_blank'>LinkedIn,</a>

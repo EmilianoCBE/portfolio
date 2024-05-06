@@ -6,6 +6,7 @@ import { Contact } from '../sections/Contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { Experience } from '../sections/Experience'
+import { About } from '../sections/About'
 
 export const HomePage = () => {
 
@@ -32,9 +33,9 @@ export const HomePage = () => {
       <Navbar />
       <section ref={heroRef} className='homepage-section' id='hero'>
         <div data-aos='fade-up'>
-          <h1>Portafolio Personal</h1>
-          <h4>Hola, ¿cómo te va?</h4>
-          <p>Me llamo <strong>Emiliano</strong> y soy un <strong>Frontend Web Developer</strong></p>
+          <h1 className='title-hero'>Portafolio Personal</h1>
+          <h4 className='subtitle-hero'>Hola, ¿cómo te va?</h4>
+          <p className='description-hero'>Me llamo <strong>Emiliano</strong> y soy un <strong>Frontend Web Developer</strong></p>
         </div>
       </section>
       <section ref={projectsRef} className='homepage-section' id='projects' data-aos='fade-up'>
@@ -44,10 +45,7 @@ export const HomePage = () => {
         <Experience />
       </section>
       <section ref={aboutRef} className='homepage-section' id='about' data-aos='fade-up'>
-        <div>
-          <h1>Sobre mí</h1>
-          
-        </div>
+        <About />
       </section>
       <section ref={contactRef} className='homepage-section' id='contact' data-aos='fade-up'>
         <Contact />
