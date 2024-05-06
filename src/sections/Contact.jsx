@@ -50,7 +50,7 @@ export const Contact = () => {
           </a>
         </li>
         <li>
-          <a href="www.linkedin.com/in/emiliano-carrizales" target='_blank'>
+          <a href="https://www.linkedin.com/in/emiliano-carrizales" target='_blank'>
             <img src="/linkedin.webp" alt="Linkedin logo" />
           </a>
         </li>

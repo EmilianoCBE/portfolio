@@ -31,7 +31,7 @@ export const Navbar = () => {
           <a href="https://github.com/EmilianoCBE" target='_blank'>
             <GithubFilled />
           </a>
-          <a href="www.linkedin.com/in/emiliano-carrizales" target='_blank'>
+          <a href="https://www.linkedin.com/in/emiliano-carrizales" target='_blank'>
             <LinkedinFilled />
           </a>
         </div>
