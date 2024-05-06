@@ -1,9 +1,31 @@
+import { useState } from "react";
 import { Flex, Card, Space, Form, Input, Button } from "antd";
 import "./Contact.css";
+import axios from "axios";
 
 const { TextArea } = Input;
 
 export const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post("/send-email", formData);
+      console.log(response.data); 
+    } catch (error) {
+      console.error("Error al enviar el correo electrónico:", error);
+    }
+  };
+
   return (
     <Flex
       className="contact-container"
@@ -43,18 +65,19 @@ export const Contact = () => {
               // maxWidth: 600,
               color: '#FFFFFF'
             }}
+            onSubmit={handleSubmit}
           >
             <Form.Item label="Nombre" style={{color: '#fff'}}>
-              <Input />
+              <Input name="name" value={formData.name} onChange={handleChange} />
             </Form.Item>
             <Form.Item label="Correo electrónico">
-              <Input />
+              <Input name="email" value={formData.email} onChange={handleChange} />
             </Form.Item>
             <Form.Item label="Mensaje">
-              <TextArea rows={4} />
+              <TextArea name="message" rows={4} value={formData.message} onChange={handleChange} />
             </Form.Item>
             <Form.Item>
-              <Button className="btn-contact">Enviar mensaje</Button>
+              <Button className="btn-contact" htmlType="submit">Enviar mensaje</Button>
             </Form.Item>
           </Form>
         </Card>
