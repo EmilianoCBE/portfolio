@@ -13,7 +13,7 @@ export const About = () => {
 
   return (
     <article>
-      <h1>¿Quién soy?</h1>
+      <h2>¿Quién soy?</h2>
       <div className="about-description" data-aos='fade-up'>
         <p>¡Excelente pregunta!</p>
         <p>A veces se me complica responder eso pero...</p>

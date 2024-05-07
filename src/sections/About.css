@@ -2,7 +2,15 @@
   max-width: 800px;
 
   p {
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-description {
+    p {
+      font-size: 20px;
+    }
   }
 }

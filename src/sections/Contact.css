@@ -1,7 +1,7 @@
-label {
+/* label {
   color: #FFFFFF !important;
   font-family: 'Onest Variable', sans-serif;
-}
+} */
 
 .text-contact{
   padding-bottom: 24px;
@@ -9,6 +9,7 @@ label {
   
   p {
     margin: 0;
+    font-size: 16px;
   }
 
   a {
@@ -63,5 +64,13 @@ label {
   img {
     width: 48px;
 
+  }
+}
+
+@media (min-width: 768px) {
+  .text-contact {
+    p {
+      font-size: 20px;
+    }
   }
 }

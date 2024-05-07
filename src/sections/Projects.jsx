@@ -45,13 +45,13 @@ export const Projects = () => {
                 <div className="img-container-projects">
                   <img className="img-projects" src={project.img} alt={project.title} />
                 </div>
-                <div>
-                  <h4 className="title-projects">
+                <div className="description-projects">
+                  <h3 className="title-projects">
                     {project.title}
-                  </h4>
+                  </h3>
                   <p>{project.description}</p>
                   <a className="url-projects" href={project.url} target="_blank">
-                    <strong>Ver más</strong>
+                    <strong>Visitar página</strong>
                   </a>
                 </div>
               </article>
