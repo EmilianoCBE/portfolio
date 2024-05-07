@@ -31,7 +31,7 @@ export const HomePage = () => {
   return (
     <>
       <Navbar />
-      <section ref={heroRef} className='homepage-section' id='hero'>
+      <section ref={heroRef} className='homepage-section' id='inicio'>
         <div data-aos='fade-up'>
           <h1 className='title-hero'>Portafolio Personal</h1>
           <h4 className='subtitle-hero'>Hola, ¿cómo te va?</h4>

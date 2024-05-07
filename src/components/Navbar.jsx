@@ -17,7 +17,7 @@ export const Navbar = () => {
       <header className='navbar'>
         <div>
           <h3>
-            <a href="#hero">Portfolio</a>
+            <a href="#inicio">Portfolio</a>
           </h3>
         </div>
         <div className='navbar-links'>
