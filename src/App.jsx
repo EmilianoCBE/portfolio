@@ -8,9 +8,9 @@ import { SpeedInsights } from "@vercel/speed-insights/react"
 function App() {
   return (
       <>
-        <SpeedInsights/>
         <div className="stars"></div>
         <HomePage />
+        <SpeedInsights/>
       </>
   );
 }

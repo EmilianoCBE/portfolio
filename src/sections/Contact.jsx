@@ -1,30 +1,16 @@
-import { useState } from "react";
-import { Flex, Card, Space, Form, Input, Button } from "antd";
+import { useEffect } from "react";
+import { Flex } from "antd";
 import "./Contact.css";
-import axios from "axios";
-
-const { TextArea } = Input;
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 export const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: ""
-  });
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const response = await axios.post("/send-email", formData);
-      console.log(response.data); 
-    } catch (error) {
-      console.error("Error al enviar el correo electrónico:", error);
-    }
-  };
+  useEffect(() => {
+    AOS.init({
+      duration: 1200
+    });
+  })
 
   return (
     <Flex
@@ -35,7 +21,7 @@ export const Contact = () => {
       vertical
     >
       <h2>Contacto</h2>
-      <div className="text-contact">
+      <div className="text-contact" data-aos='fade-up'>
         <p>
           Puedes encontrarme en mi perfil de
           Github,
@@ -43,7 +29,7 @@ export const Contact = () => {
           y también puedes enviarme un correo electrónico dando click en los íconos de abajo.
         </p>
       </div>
-      <ul className="social-contact">
+      <ul className="social-contact" data-aos='fade-up'>
         <li>
           <a href="https://github.com/EmilianoCBE" target='_blank'>
             <img src="/github.webp" alt="Github logo" />

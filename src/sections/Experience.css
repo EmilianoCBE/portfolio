@@ -55,7 +55,11 @@ p {
 
 @media (min-width: 768px) {
   .li-experience {
-    padding-bottom: 64px;
+    padding-bottom: 56px;
+  }
+
+  h2 {
+    margin-bottom: 35px;
   }
 
   li {

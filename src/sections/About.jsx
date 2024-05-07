@@ -1,11 +1,21 @@
 import './About.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import { useEffect } from 'react';
 
 export const About = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1200
+    });
+  })
+
   return (
-    <div>
+    <article>
       <h1>¿Quién soy?</h1>
-      <div className="about-description">
-        <p>!Excelente pregunta!</p>
+      <div className="about-description" data-aos='fade-up'>
+        <p>¡Excelente pregunta!</p>
         <p>A veces se me complica responder eso pero...</p>
         <p>
           Por lo pronto sé que soy un Desarrollador Frontend dedicado a plasmar el diseño de una página web en código.
@@ -22,6 +32,6 @@ export const About = () => {
           Si quieres saber más de mi, no dudes en contactarme.
         </p>
       </div>
-    </div>
+    </article>
   );
 };

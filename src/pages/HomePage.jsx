@@ -1,18 +1,18 @@
 import { useEffect, useRef } from 'react'
-import './HomePage.css'
 import { Navbar } from "../components/Navbar"
 import { Projects } from '../sections/Projects'
 import { Contact } from '../sections/Contact'
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
 import { Experience } from '../sections/Experience'
 import { About } from '../sections/About'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import './HomePage.css'
 
 export const HomePage = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 2500
+      duration: 1200
     });
   })
 
@@ -38,16 +38,16 @@ export const HomePage = () => {
           <p className='description-hero'>Me llamo <strong>Emiliano</strong> y soy un <strong>Frontend Web Developer</strong></p>
         </div>
       </section>
-      <section ref={projectsRef} className='homepage-section' id='projects' data-aos='fade-up'>
+      <section ref={projectsRef} className='homepage-section' id='projects'>
         <Projects />
       </section>
-      <section ref={aboutRef} className='homepage-section' id='experience' data-aos='fade-up'>
-        <Experience />
+      <section ref={aboutRef} className='homepage-section' id='experience'>
+        <Experience/>
       </section>
-      <section ref={aboutRef} className='homepage-section' id='about' data-aos='fade-up'>
+      <section ref={aboutRef} className='homepage-section' id='about'>
         <About />
       </section>
-      <section ref={contactRef} className='homepage-section' id='contact' data-aos='fade-up'>
+      <section ref={contactRef} className='homepage-section' id='contact'>
         <Contact />
       </section>
     </>
