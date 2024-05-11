@@ -18,5 +18,16 @@ export const projects = [
     url: 'https://e-commerce-portfolio-75ey8mzf1-emilianocbe.vercel.app',
     id: 2
   },
+  {
+    title: 'Calculadora de precios',
+    description: `Esta página web es un reto de Frontend el cual consiste en calcular precios de productos 
+    de acuerdo a la cantidad y metros cuadrados que se deseen. Fue hecho con ReactJS y Ant Design para algunas partes de CSS.
+    El cálculo de precios se hace en tiempo real y se actualiza al instante usando el hook de useContext y a su vez se
+    puede resetear los valores con un botón.
+    `,
+    img: '/project3.webp',
+    url: 'https://calculadora-precios-55e8smebu-emilianocbes-projects.vercel.app',
+    id: 3
+  },
   
 ]
