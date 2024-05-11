@@ -1,5 +1,5 @@
 section {
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 
 #inicio, 
@@ -54,7 +54,7 @@ section {
 }
 
 @media (min-width: 992px) {
-  section {
+  /* section {
     height: 100vh;
-  }
+  } */
 }
