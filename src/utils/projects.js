@@ -26,7 +26,7 @@ export const projects = [
     puede resetear los valores con un botón.
     `,
     img: '/project3.webp',
-    url: 'https://calculadora-precios-55e8smebu-emilianocbes-projects.vercel.app',
+    url: 'https://calculadora-precios.vercel.app',
     id: 3
   },
   

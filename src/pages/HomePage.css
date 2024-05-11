@@ -1,7 +1,17 @@
 section {
-  height: 100vh;
   padding-bottom: 120px;
 }
+
+#inicio, 
+#experience,
+#about,
+#contact {
+  height: 100vh;
+}
+
+/* section .homepage-section:nth-child(1) {
+  padding: 120px 32px;
+} */
 
 .homepage-section{
   max-width: 1280px;
@@ -40,5 +50,11 @@ section {
 
   #contact {
     padding-bottom: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  section {
+    height: 100vh;
   }
 }
