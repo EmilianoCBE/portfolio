@@ -45,16 +45,19 @@
 .description-projects {
   p {
     font-size: 16px;
+    color: #FFFFFFD9;
   }
 }
 
 .title-projects {
   font-size: 30px;
   margin: 20px 0;
+  color: #FFFFFFD9;
 }
 
 .url-projects {
   color: #FFF;
+  font-size: 18px;
 
   & hover {
     color: #171e5c;
