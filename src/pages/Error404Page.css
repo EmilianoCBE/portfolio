@@ -1,0 +1,29 @@
+.error-section{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 32px 80px 32px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+
+  .title-error {
+    color: #FFFFFFD9;
+  }
+
+  .subtitle-error {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .error-section {
+    padding: 32px 32px 32px 32px;
+
+    .subtitle-error,
+    .description-error {
+      font-size: 20px;
+    }
+  }
+}
