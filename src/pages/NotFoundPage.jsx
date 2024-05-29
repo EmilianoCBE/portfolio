@@ -1,15 +1,14 @@
 import { useEffect } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import './NotFoundPage.css'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 export const NotFoundPage = () => {
-
   useEffect(() => {
     AOS.init({
       duration: 1200
-    });
+    })
   })
   return (
     <>
