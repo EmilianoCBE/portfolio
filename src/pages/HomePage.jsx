@@ -1,19 +1,18 @@
 import { useEffect, useRef } from 'react'
-import { Navbar } from "../components/Navbar"
+import { Navbar } from '../components/Navbar'
 import { Projects } from '../sections/Projects'
 import { Contact } from '../sections/Contact'
 import { Experience } from '../sections/Experience'
 import { About } from '../sections/About'
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import './HomePage.css'
 
 export const HomePage = () => {
-
   useEffect(() => {
     AOS.init({
       duration: 1200
-    });
+    })
   })
 
   const heroRef = useRef(null)

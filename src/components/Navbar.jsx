@@ -3,19 +3,18 @@ import './Navbar.css'
 import { useEffect, useState } from 'react'
 
 export const Navbar = () => {
-
-  const [scroll, setScroll] = useState(0)  
+  const [scroll, setScroll] = useState(0)
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 350);
-    });
-  }, []);  
+    window.addEventListener('scroll', () => {
+      setScroll(window.scrollY > 350)
+    })
+  }, [])
 
   return (
     <div id='navbarDisplay' className={scroll ? 'navBarContainer' : ''}>
       <header className='navbar'>
-        <div>
+        <div className='navbar-logo'>
           <h3>
             <a href="#inicio">Portfolio</a>
           </h3>
@@ -36,14 +35,14 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className='navbar-icons'>
+        {/* <div className='navbar-icons'>
           <a href="https://github.com/EmilianoCBE" target='_blank'>
             <GithubFilled />
           </a>
           <a href="https://www.linkedin.com/in/emiliano-carrizales" target='_blank'>
             <LinkedinFilled />
           </a>
-        </div>
+        </div> */}
       </header>
     </div>
   )
