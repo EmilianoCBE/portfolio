@@ -9,7 +9,7 @@ export const Hero = () => {
   return (
     <div data-aos='fade-up' className='hero-container'>
       <div className='hero-content'>
-        <h1 className='hero-title'>Portafolio Personal</h1>
+        <h1 className='hero-title'>Front-end Developer</h1>
         <h4 className='hero-subtitle'>Hola, ¿cómo te va?</h4>
         <p className='hero-description'>Me llamo <strong>Emiliano</strong> y soy un <strong>Frontend Web Developer</strong></p>
       </div>
