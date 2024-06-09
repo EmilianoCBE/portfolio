@@ -7,6 +7,7 @@ import { About } from '../sections/About'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import './HomePage.css'
+import { Hero } from '../sections/Hero'
 
 export const HomePage = () => {
   useEffect(() => {
@@ -31,11 +32,7 @@ export const HomePage = () => {
     <>
       <Navbar />
       <section ref={heroRef} className='homepage-section' id='inicio'>
-        <div data-aos='fade-up'>
-          <h1 className='title-hero'>Portafolio Personal</h1>
-          <h4 className='subtitle-hero'>Hola, ¿cómo te va?</h4>
-          <p className='description-hero'>Me llamo <strong>Emiliano</strong> y soy un <strong>Frontend Web Developer</strong></p>
-        </div>
+        <Hero />
       </section>
       <section ref={projectsRef} className='homepage-section' id='projects'>
         <Projects />

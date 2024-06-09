@@ -22,15 +22,6 @@ section {
   align-items: center;
   justify-content: center;
   z-index: 100;
-
-  .title-hero {
-    color: #FFFFFFD9;
-  }
-
-  .subtitle-hero,
-  .description-hero {
-    font-size: 18px;
-  }
 }
 
 #contact {
