@@ -14,7 +14,7 @@ section {
 } */
 
 .homepage-section{
-  max-width: 1280px;
+  /* max-width: 1712px; */
   margin: 0 auto;
   padding: 32px 32px 80px 32px;
   text-align: center;
@@ -24,12 +24,13 @@ section {
   z-index: 100;
 
   .title-hero {
-    color: #FFFFFFD9;
+    color: #2d2e32;
   }
 
   .subtitle-hero,
   .description-hero {
     font-size: 18px;
+    color: #2d2e32;
   }
 }
 

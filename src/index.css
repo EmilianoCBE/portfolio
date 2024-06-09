@@ -35,7 +35,9 @@ body {
   min-height: 100vh;
   background-color: #121221;
   /* background: linear-gradient(#121221, #171e5c); */
-  background: linear-gradient(#121221, #2a37ac);
+  /* background: linear-gradient(#121221, #2a37ac); */
+  /* background: #121221; */
+  background: #f9f9f9;
   color: #ffffff;
 }
 

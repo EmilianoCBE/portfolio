@@ -4,7 +4,7 @@
   /* padding-bottom: 200px; */
 
   h2 {
-    color: #FFFFFFD9;
+    color: #2d2e32;
   }
 }
 
@@ -45,18 +45,18 @@
 .description-projects {
   p {
     font-size: 16px;
-    color: #FFFFFFD9;
+    color: #2d2e32;
   }
 }
 
 .title-projects {
   font-size: 30px;
   margin: 20px 0;
-  color: #FFFFFFD9;
+  color: #2d2e32;
 }
 
 .url-projects {
-  color: #FFF;
+  color: #2d2e32;
   font-size: 18px;
 
   & hover {

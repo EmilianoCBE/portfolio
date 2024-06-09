@@ -1,0 +1,30 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 107rem;
+  padding: 0 1.7rem;
+
+  h1 {
+    margin: 16px 0;
+  }
+
+  h4, p {
+    margin: 0;
+  }
+}
+
+.hero-tech {
+  color: #2d2e32;
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 4rem;
+    text-align: left;
+    gap: 160px;
+    max-width: 800px;
+  }
+}

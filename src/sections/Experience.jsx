@@ -1,20 +1,19 @@
-import { Flex } from 'antd';
-import './Experience.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
-import { useEffect } from 'react';
+import { Flex } from 'antd'
+import './Experience.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 export const Experience = () => {
-  
   useEffect(() => {
     AOS.init({
       duration: 1200
-    });
+    })
   })
 
   return (
     <Flex vertical>
-      <h2>Experiencia</h2>
+      <h2 className='main-title-experience'>Experiencia</h2>
       <div className='container' data-aos='fade-up'>
           <ul className='ul-experience'>
             <li className='li-experience'>
@@ -32,5 +31,5 @@ export const Experience = () => {
           </ul>
         </div>
     </Flex>
-  );
-};
+  )
+}
