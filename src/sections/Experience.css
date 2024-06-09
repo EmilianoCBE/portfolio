@@ -20,7 +20,7 @@
 .li-experience {
   padding-bottom: 40px;
   font-size: 16px;
-  border-left: 1px solid #FFFFFFd9;
+  border-left: 1px solid #F1F1F1;
   position: relative;
   padding-left: 24px;
   margin-left: 10px;
@@ -41,12 +41,12 @@
   }
 
   p {
-    color: #FFFFFFd9;
+    color: #F1F1F1;
   }
 }
 
 .title-experience {
-  color: #FFFFFFd9;
+  color: #F1F1F1;
   margin-top: 0;
 }
 

@@ -13,7 +13,7 @@
   }
 
   a {
-    color: #FFFFFF;
+    color: #F1F1F1;
     text-decoration: underline;
     margin: 0 4px;
   }
@@ -34,7 +34,7 @@
 
   span{
     font-family: 'Onest Variable', sans-serif;
-    color: #FFFFFF;
+    color: #F1F1F1;
   }
 
   :hover {

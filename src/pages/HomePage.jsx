@@ -31,19 +31,19 @@ export const HomePage = () => {
   return (
     <>
       <Navbar />
-      <section ref={heroRef} className='homepage-section' id='inicio'>
+      <section ref={heroRef} className='container' id='inicio'>
         <Hero />
       </section>
-      <section ref={projectsRef} className='homepage-section' id='projects'>
+      <section ref={projectsRef} className='container' id='projects'>
         <Projects />
       </section>
-      <section ref={aboutRef} className='homepage-section' id='experience'>
+      <section ref={aboutRef} className='container' id='experience'>
         <Experience/>
       </section>
-      <section ref={aboutRef} className='homepage-section' id='about'>
+      <section ref={aboutRef} className='container' id='about'>
         <About />
       </section>
-      <section ref={contactRef} className='homepage-section' id='contact'>
+      <section ref={contactRef} className='container' id='contact'>
         <Contact />
       </section>
     </>

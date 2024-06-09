@@ -4,7 +4,7 @@
   /* padding-bottom: 200px; */
 
   h2 {
-    color: #FFFFFFD9;
+    color: #F1F1F1;
   }
 }
 
@@ -22,7 +22,6 @@
   /* border-radius: 8px; */
   overflow: hidden;
   position: relative;
-  opacity: 0.7;
   border-radius: 8px;
   transition: ease-out 0.5s;
 
@@ -45,18 +44,18 @@
 .description-projects {
   p {
     font-size: 16px;
-    color: #FFFFFFD9;
+    color: #F1F1F1;
   }
 }
 
 .title-projects {
   font-size: 30px;
   margin: 20px 0;
-  color: #FFFFFFD9;
+  color: #F1F1F1;
 }
 
 .url-projects {
-  color: #FFF;
+  color: #F1F1F1;
   font-size: 18px;
 
   & hover {
