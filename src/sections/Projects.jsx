@@ -1,23 +1,21 @@
-import { Col, Row } from "antd";
-import { projects } from "../utils/projects";
-import "./Projects.css";
-import { useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
-
+import { Col, Row } from 'antd'
+import { projects } from '../utils/projects'
+import './Projects.css'
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export const Projects = () => {
-
   useEffect(() => {
     AOS.init({
       duration: 1200
-    });
+    })
   })
 
   return (
     <div className="container-projects">
       <h2>Proyectos</h2>
-      
+
       <div data-aos='fade-up'>
         <Row className="row-projects" gutter={[0, 16]}>
           {projects.map((project) => (
@@ -43,7 +41,9 @@ export const Projects = () => {
               </Card> */}
               <article className="content-projects">
                 <div className="img-container-projects">
-                  <img className="img-projects" src={project.img} alt={project.title} />
+                  <a href={project.url} target="_blank">
+                    <img className="img-projects" src={project.img} alt={project.title} />
+                  </a>
                 </div>
                 <div className="description-projects">
                   <h3 className="title-projects">
@@ -60,5 +60,5 @@ export const Projects = () => {
         </Row>
       </div>
     </div>
-  );
-};
+  )
+}
