@@ -29,5 +29,14 @@ export const projects = [
     url: 'https://calculadora-precios.vercel.app',
     id: 3
   },
-  
+  {
+    title: 'Landing page Gym',
+    description: `Esta página web es una landing page clásica, mostrando información simple
+    y concisa.
+    `,
+    img: '/project4.webp',
+    url: 'https://gym-webpage-nu.vercel.app',
+    id: 4
+  }
+
 ]
