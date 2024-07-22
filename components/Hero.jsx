@@ -1,3 +1,4 @@
+import { MagicButton } from './ui/MagicButton'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/text-generate-effect'
 
@@ -29,6 +30,9 @@ export const Hero = () => {
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
               Hi there! I&apos;m currently working on a new website. 
             </p>
+            {/* <a href="#about">
+              <MagicButton title="Show my work"/>
+            </a> */}
           </div>
         </div>
       </div>
