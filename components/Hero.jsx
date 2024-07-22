@@ -30,9 +30,9 @@ export const Hero = () => {
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
               Hi there! I&apos;m currently working on a new website. 
             </p>
-            {/* <a href="#about">
+            <a href="#about">
               <MagicButton title="Show my work"/>
-            </a> */}
+            </a>
           </div>
         </div>
       </div>
