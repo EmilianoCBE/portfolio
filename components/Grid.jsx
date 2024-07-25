@@ -1,6 +1,6 @@
 import React from 'react'
 import { BentoGrid, BentoGridItem } from './ui/bento-grid'
-import { gridItems } from '@/data/index'
+import { gridItems } from '@/data'
 
 export const Grid = () => {
   return (
@@ -9,12 +9,17 @@ export const Grid = () => {
     > 
       <BentoGrid>
         {
-          gridItems.map((project, index) => (
+          gridItems.map(({id, title, des, className, img, imgClassName, titleClassName, spareImg}) => (
             <BentoGridItem
-              key={index}
-              id={project.id}
-              title={project.title}
-              description={project.des}
+              key={id}
+              id={id}
+              title={title}
+              description={des}
+              className={className}
+              img={img}
+              imgClassName={imgClassName}
+              titleClassName={titleClassName}
+              spareImg={spareImg}
             />
           ))
         }
