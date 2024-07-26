@@ -4,10 +4,10 @@ import { Button } from './ui/moving-border'
 
 export const Experience = () => {
   return (
-    <div className='py-10' id='experience'>
+    <div className='pt-0 pb-20 sm:pt-10 sm:pb-40' id='experience'>
       <h1 className='heading'>
-        My
-        <span className='text-purple-300'> Work Experience</span>
+        Mi
+        <span className='text-purple-300'> Experiencia Laboral</span>
       </h1>
       <div className='w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10'>
         {

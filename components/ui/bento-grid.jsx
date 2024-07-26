@@ -5,6 +5,7 @@ import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import { MagicButton } from "./MagicButton";
 import { IconClipboardCopy } from "@tabler/icons-react";
+import { FaBootstrap, FaCss3, FaHtml5, FaReact } from "react-icons/fa";
 
 export const BentoGrid = ({
   className, 
@@ -42,28 +43,17 @@ export const BentoGridItem = ({className, title, description, id, img, imgClassN
         backgroundColor: 'linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)'
       }}
     >
-      <div className={`${id == 6 && 'flex justify-center'} h-full `}>
-        <div className="w-full h-full absolute">
+      <div className={`${id == 2 && 'flex justify-center bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700'} h-full`}>
+        <div className="absolute">
           {
             img && (
               <img
                 src={img}
                 alt={img}
                 className={cn(
-                  "object-center object-cover",
+                  "object-cover",
                   imgClassName
                 )}
-              />
-            )
-          }
-        </div>
-        <div className={`absolute right-0 -bottom-5 ${id === 5 && 'w-full opacity-80'}`}>
-          {
-            spareImg && (
-              <img
-                src={spareImg}
-                alt={spareImg}
-                className={"object-center object-cover w-full h-full"}
               />
             )
           }
@@ -71,7 +61,9 @@ export const BentoGridItem = ({className, title, description, id, img, imgClassN
 
         <div className={cn(
           titleClassName,
-          'group-hover/bento: translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10'
+          `group-hover/bento: translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10 
+            ${id == 3 && 'bg-gradient-to-r from-[#000000] to-[#101154]'}
+          `
         )}>
           <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
             {description}
@@ -82,38 +74,18 @@ export const BentoGridItem = ({className, title, description, id, img, imgClassN
         
           {
             id == 3 && (
-              <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-                <div className="flex flex-col gap-3 lg:gap-8">
-                  {
-                    ['React', 'Next.js', 'TailwindCSS'].map((item) => (
-                      <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">
-                        {
-                          item
-                        }
-                      </span>
-                    ))
-                  }
-                  <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
-                </div>
-                <div className="flex flex-col gap-3 lg:gap-8">
-                  <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
-
-                  {
-                    ['HTML', 'CSS', 'Bootstrap'].map((item) => (
-                      <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">
-                        {
-                          item
-                        }
-                      </span>
-                    ))
-                  }
-                </div>
+              <div className="flex flex-col md:flex-row gap-2 lg:gap-5 w-fit mt-3">
+                <FaReact className="text-[#61dafb] text-3xl"/>
+                <FaHtml5 className="text-[#e34f26] text-3xl"/>
+                <FaCss3 className="text-[#1572b6] text-3xl"/>
+                <FaBootstrap className="text-[#7952b3] text-3xl"/>
+                <img src="/tailwindcss.svg" width={30} height={30}/>
               </div>
             )
           }
 
           {
-            id == 6 && (
+            id == 2 && (
               <div className="mt-5 relative">
                 <div className={`absolute -bottom-5 right-0`}>
                   <Lottie options={{
@@ -129,7 +101,7 @@ export const BentoGridItem = ({className, title, description, id, img, imgClassN
                   title={copy ? 'Email Copied!' : 'Copy Email'}
                   icon={<IconClipboardCopy />}
                   position={'left'}
-                  otherClasses={`!bg-[#161a31]`}
+                  otherClasses={``}
                   handleClick={handleCopy}
                 />
               </div>
