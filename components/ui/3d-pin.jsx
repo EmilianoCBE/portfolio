@@ -25,6 +25,7 @@ export const PinContainer = ({ children, title, href, className, containerClassN
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       href={href || "/"}
+      target="_blank"
     >
       <div
         style={{
