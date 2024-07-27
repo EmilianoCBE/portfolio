@@ -74,7 +74,7 @@ export const BentoGridItem = ({className, title, description, id, img, imgClassN
         
           {
             id == 3 && (
-              <div className="flex flex-col md:flex-row gap-2 lg:gap-5 w-fit mt-3">
+              <div className="flex flex-row gap-3 lg:gap-5 w-fit mt-3">
                 <FaReact className="text-[#61dafb] text-3xl"/>
                 <FaHtml5 className="text-[#e34f26] text-3xl"/>
                 <FaCss3 className="text-[#1572b6] text-3xl"/>
