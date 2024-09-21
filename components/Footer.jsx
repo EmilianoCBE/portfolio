@@ -25,7 +25,7 @@ export const Footer = () => {
           <a href="mailto:e.carrizales1305@gmail.com">
             <MagicButton title="Envíame un correo" icon={<FaMailBulk />} position='right' />
           </a>
-          <a href="www.linkedin.com/in/emiliano-carrizales">
+          <a href="https://www.linkedin.com/in/emiliano-carrizales">
             <MagicButton title="Linkdin" icon={<FaLinkedin />} position='right' />
           </a>
         </div>
