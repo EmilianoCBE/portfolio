@@ -1,6 +1,6 @@
 import './App.css'
-import { Navbar, Separator } from './components'
-import { Hero } from './sections'
+import { Footer, Navbar, Separator } from './components'
+import { Hero, Projects } from './sections'
 
 function App() {
 
@@ -10,10 +10,10 @@ function App() {
       <main>
         <Hero />
         <Separator />
-        <Hero />
-        <Hero />
-        <Hero />
+        <Projects />
+        <Separator />
       </main>
+      <Footer />
     </>
   )
 }

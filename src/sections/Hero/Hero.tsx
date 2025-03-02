@@ -5,12 +5,12 @@ export const Hero = () => {
     <section className="relative section-container min-h-dvh flex flex-col items-center justify-center gap-4 overflow-hidden">
       <div className="absolute inset-0 flex items-center justify-center -z-10">
         <FlickeringGrid
-          className="w-[115000px] h-[700px]"
+          className="w-[1150px] h-[700px]"
           squareSize={8}
           gridGap={6}
           color="#27272a"
           maxOpacity={0.5}
-          flickerChance={0.1}
+          flickerChance={0.0}
         />
       </div>
 
