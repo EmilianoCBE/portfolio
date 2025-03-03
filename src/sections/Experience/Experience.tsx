@@ -3,7 +3,7 @@ import { experience } from "@/data/experience";
 
 export const Experience = () => {
   return (
-    <section className="section-container min-h-dvh flex flex-col items-center justify-center gap-4 py-[100px] relative">
+    <section className="section-container min-h-dvh flex flex-col items-center justify-center gap-4 py-[100px] relative overflow-hidden">
       <h2 className="text-5xl md:text-6xl text-center font-medium text-[#eaeaea] z-10">
         Experience
       </h2>

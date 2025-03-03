@@ -1,6 +1,6 @@
 import './App.css'
 import { Footer, Navbar, Separator } from './components'
-import { Experience, Hero, Projects } from './sections'
+import { Contact, Experience, Hero, Projects } from './sections'
 
 function App() {
 
@@ -13,6 +13,8 @@ function App() {
         <Projects />
         <Separator />
         <Experience />
+        <Separator />
+        <Contact />
         <Separator />
       </main>
       <Footer />
