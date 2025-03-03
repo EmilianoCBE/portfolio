@@ -1,6 +1,6 @@
 import './App.css'
 import { Footer, Navbar, Separator } from './components'
-import { Hero, Projects } from './sections'
+import { Experience, Hero, Projects } from './sections'
 
 function App() {
 
@@ -11,6 +11,8 @@ function App() {
         <Hero />
         <Separator />
         <Projects />
+        <Separator />
+        <Experience />
         <Separator />
       </main>
       <Footer />
