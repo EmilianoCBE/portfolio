@@ -90,6 +90,7 @@ body {
   padding-right: 1rem;
 }
 
+
 @media (min-width: 640px) {
   .section-container {
     padding-left: 2rem;  
@@ -103,3 +104,4 @@ body {
     padding-right: 4rem; 
   }
 }
+
