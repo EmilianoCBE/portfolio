@@ -22,13 +22,18 @@ export const Navbar = () => {
               Experience
             </a>
           </li>
+          {/* <li>
+            <a href="#about" onClick={(e) => handleScroll(e, "technologies")}>
+              Technologies
+            </a>
+          </li> */}
           <li>
-            <a href="#about" onClick={(e) => handleScroll(e, "abouts")}>
+            <a href="#about" onClick={(e) => handleScroll(e, "about")}>
               About
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={(e) => handleScroll(e, "technologies")}>
+            <a href="#contact" onClick={(e) => handleScroll(e, "contact")}>
               Contact
             </a>
           </li>

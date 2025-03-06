@@ -5,6 +5,8 @@ import { About, Contact, Experience, Hero, Projects, Technologies } from './sect
   - Add a language switcher
   - Add router with route management
   - Add 404 page
+  - Acomodar letras de la sección de proyectos y de experiencia
+  - Terminar About
 */
 
 function App() {

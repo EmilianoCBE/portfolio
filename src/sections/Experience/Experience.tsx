@@ -10,7 +10,7 @@ export const Experience = () => {
         transition={{ duration: 0.5 }}
         className="text-5xl md:text-6xl text-center font-medium text-[#eaeaea] z-10 pb-10"
       >
-        Experience
+        Mi Experiencia Laboral
       </motion.h2>
       {/* <p className="text-lg md:text-xl text-center w-full pt-2 text-[#b3b3b3] z-10">
         Here are some of the companies I've worked with

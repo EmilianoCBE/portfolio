@@ -10,7 +10,7 @@ export const Projects = () => {
         transition={{ duration: 0.5 }}
         className="text-5xl md:text-6xl text-center font-medium pb-10"
       >
-        Projects  
+        Proyectos  
       </motion.h2>
       {/* <p className="text-lg md:text-xl text-center w-full pt-2 mb-10">
         Here are some of the projects I've worked on recently

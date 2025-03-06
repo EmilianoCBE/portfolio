@@ -34,7 +34,7 @@ export const Hero = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.8 }}
-          className="text-lg md:text-xl text-center w-full pt-2 relative"
+          className="text-lg md:text-xl text-center w-full pt-2 relative pb-4"
         >
           Hola, ¿cómo te va?, me llamo Emiliano y soy un Desarrollador Frontend
         </motion.p>
@@ -43,7 +43,7 @@ export const Hero = () => {
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.8 }}
           href="#"
-          className="mt-7 py-3 px-6 rounded-2xl bg-[#eaeaea] text-black ease-in-out transition-colors duration-300 relative"
+          className="py-3 px-6 rounded-2xl bg-[#eaeaea] text-black ease-in-out transition-colors duration-300 relative"
           rel="noreferrer noopener"
         >
           My Work
