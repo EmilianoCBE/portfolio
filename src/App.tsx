@@ -1,5 +1,5 @@
 import { Footer, Navbar, Separator } from './components'
-import { About, Contact, Experience, Hero, Projects } from './sections'
+import { About, Contact, Experience, Hero, Projects, Technologies } from './sections'
 /*
   To do:
   - Add transitions to the sections and text
@@ -8,6 +8,7 @@ import { About, Contact, Experience, Hero, Projects } from './sections'
   - Add icons
   - Add router with route management
   - Add 404 page
+  - Add Projects images 
 */
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
         <Projects />
         <Separator />
         <Experience />
+        <Separator />
+        <Technologies />
         <Separator />
         <About />
         <Separator />

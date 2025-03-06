@@ -2,31 +2,31 @@ import { Project } from "@/models";
 
 export const projects: Project[] = [
   {
-    name: "Project 1",
-    description: "This is a description for project 1",
-    image: "https://via.placeholder.com/150",
+    name: "Niky Landing Page",
+    description: "Landing page hecha con React y TailwindCSS simulando página web de Nike.",
+    image: "/images/project1.webp",
     technologies: ["React", "TailwindCSS"],
     github: ""
   },
   {
-    name: "Project 2",
-    description: "This is a description for project 2",
-    image: "https://via.placeholder.com/150",
+    name: "Gym Landing Page",
+    description: "Landing page hecha con React y CSS la cual muestra una página web con información de un gimnasio.",
+    image: "/images/project2.webp",
     technologies: ["React", "TailwindCSS"],
     github: ""
   },
   {
-    name: "Project 3",
-    description: "This is a description for project 3",
-    image: "https://via.placeholder.com/150",
-    technologies: ["React", "TailwindCSS"],
+    name: "Calculadora de precios de inmuebles",
+    description: "Prueba técninca en la cual se calcula en automático el precio total de acuerdo a la cantidad de muebles seleccionados y sus medidas.",
+    image: "/images/project3.webp",
+    technologies: ["React"],
     github: ""
   },
   {
-    name: "Project 4",
-    description: "This is a description for project 4",
-    image: "https://via.placeholder.com/150",
-    technologies: ["React", "TailwindCSS"],
+    name: "Tienda Online",
+    description: "Página hecha con React y Chakra UI que muestra el Frontend de cómo se vería una tienda online.",
+    image: "/images/project4.webp",
+    technologies: ["React", "Chakra UI"],
     github: ""
   }
 ]
