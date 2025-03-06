@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export const Experience = () => {
   return (
-    <section className="section-container min-h-dvh flex flex-col items-center justify-center gap-4 py-[100px] relative overflow-hidden">
+    <section id="experience" className="section-container min-h-dvh flex flex-col items-center justify-center gap-4 py-[100px] relative overflow-hidden">
       <motion.h2 
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}

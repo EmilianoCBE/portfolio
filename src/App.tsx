@@ -2,13 +2,9 @@ import { Footer, Navbar, Separator } from './components'
 import { About, Contact, Experience, Hero, Projects, Technologies } from './sections'
 /*
   To do:
-  - Add transitions to the sections and text
-  - Add animations to the sections
   - Add a language switcher
-  - Add icons
   - Add router with route management
   - Add 404 page
-  - Add Projects images 
 */
 
 function App() {

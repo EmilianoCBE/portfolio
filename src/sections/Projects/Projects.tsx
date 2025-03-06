@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 export const Projects = () => {
   return (
-    <section className="section-container min-h-dvh flex flex-col items-center justify-center gap-4 py-[100px]">
+    <section id="projects" className="section-container min-h-dvh flex flex-col items-center justify-center gap-4 py-[100px]">
       <motion.h2 
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}

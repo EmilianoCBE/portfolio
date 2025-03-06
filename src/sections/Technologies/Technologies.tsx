@@ -25,7 +25,7 @@ export const Technologies = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
-        className="text-5xl md:text-6xl text-center font-medium mb-16"
+        className="text-5xl md:text-6xl text-center font-medium pb-10"
       >
         Technologies
       </motion.h2>
