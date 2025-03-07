@@ -6,28 +6,28 @@ export const projects: Project[] = [
     description: "Landing page hecha con React y TailwindCSS simulando página web de Nike.",
     image: "/images/project1.webp",
     technologies: ["React", "TailwindCSS"],
-    github: ""
+    link: "https://tailwind-nike-theta.vercel.app"
   },
   {
     name: "Gym Landing Page",
     description: "Landing page hecha con React y CSS la cual muestra una página web con información de un gimnasio.",
     image: "/images/project2.webp",
     technologies: ["React", "TailwindCSS"],
-    github: ""
+    link: "https://gym-webpage-nu.vercel.app"
   },
   {
     name: "Calculadora de precios de inmuebles",
     description: "Prueba técninca en la cual se calcula en automático el precio total de acuerdo a la cantidad de muebles seleccionados y sus medidas.",
     image: "/images/project3.webp",
     technologies: ["React"],
-    github: ""
+    link: "https://calculadora-precios.vercel.app"
   },
   {
     name: "Tienda Online",
     description: "Página hecha con React y Chakra UI que muestra el Frontend de cómo se vería una tienda online.",
     image: "/images/project4.webp",
     technologies: ["React", "Chakra UI"],
-    github: ""
+    link: "https://e-commerce-portfolio-snowy.vercel.app/"
   }
 ]
 
