@@ -9,7 +9,7 @@ export const Contact = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="text-5xl md:text-6xl text-center font-medium pb-10"
+        className="text-5xl md:text-6xl text-center font-medium pb-16"
       >
         Pongámonos en contacto
       </motion.h2>
@@ -17,7 +17,7 @@ export const Contact = () => {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1 }}
-        className="text-lg text-center pt-4 max-w-2xl pb-10"
+        className="text-lg text-center pt-4 max-w-2xl pb-8"
       >
         Si te interesa trabajar conmigo puedes encontrarme por medio de correo electrónico o también puedes contactarme por medio de mis redes sociales.
       </motion.p>

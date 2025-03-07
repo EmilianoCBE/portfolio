@@ -2,17 +2,17 @@ import { Experience } from "@/models/experience";
 
 export const experience: Experience[] = [
   {
-    title: "Software Engineer",
-    company: "Google",
-    location: "Mountain View, CA",
-    date: "2020 - Present",
-    description: "I work on the Google Search team, focusing on improving the search experience for users."
+    title: "Fullstack Developer",
+    company: "National Unity Insurance Company",
+    location: "San Pedro Garza García, NL",
+    date: "Ago 2023 - Present",
+    description: "Desarrolladro Frontend en la empresa de seguros National Unity, trabajando en el desarrollo de la página web de la empresa, así como en el diseño y creación de una nueva aplicación web para todas las áreas de la empresa."
   },
   {
-    title: "Software Engineer",
-    company: "Facebook",
-    location: "Menlo Park, CA",
-    date: "2018 - 2020",
-    description: "I worked on the Ads team, building tools to help advertisers create and manage their ads."
+    title: "Frontend Developer",
+    company: "Nett Design Agency",
+    location: "San Pedro Garza García, NL",
+    date: "Mar 2023 - Jun 2023",
+    description: "Desarrollador Frontend en la agencia de diseño NETT, trabajando en proyectos de clientes como Landing Pages o páginas más complejas."
   }
 ]

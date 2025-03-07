@@ -8,7 +8,7 @@ export const Experience = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="text-5xl md:text-6xl text-center font-medium text-[#eaeaea] z-10 pb-10"
+        className="text-5xl md:text-6xl text-center font-medium text-[#eaeaea] z-10 pb-16"
       >
         Mi Experiencia Laboral
       </motion.h2>
@@ -42,7 +42,7 @@ export const Experience = () => {
                 transition={{ duration: 1 }}
                 className="w-full md:w-1/4"
               >
-                <p className="mb-2 text-sm text-[#b3b3b3]">
+                <p className="mb-2 text-md text-[#b3b3b3]">
                   {job.date}
                 </p>
               </motion.div>
@@ -52,9 +52,9 @@ export const Experience = () => {
                 transition={{ duration: 1 }}
                 className="w-full md:w-3/4"
               >
-                <h3 className="text-xl md:te xt-5xl font-medium mb-2">
+                <h3 className="text-xl md:text-2xl font-medium mb-2">
                   {job.title} -{" "}
-                  <span className="text-sm text-[#b3b3b3]">  
+                  <span className="text-md text-[#b3b3b3]">  
                     {job.company}
                   </span>
                 </h3>
