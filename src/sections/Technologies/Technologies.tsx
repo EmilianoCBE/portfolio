@@ -2,22 +2,6 @@ import { Ripple } from "@/components/magicui/ripple";
 import { HtmlIcon, CssIcon, ReactIcon, TailwindIcon, TypescriptIcon } from "@/assets/icons";
 import { motion } from "framer-motion";
 
-
-const iconVariants = (duration:number) => ({
-  initial: {
-    y: -10,
-  },
-  animate: {
-    y: [10, -10],
-    transition: {
-      duration: duration,
-      ease: 'linear',
-      repeat: Infinity,
-      repeatType: 'reverse',
-    }
-  }
-})
-
 export const Technologies = () => {
   return (
     <section id="technologies" className="section-container min-h-dvh flex flex-col items-center justify-center gap-4 py-[100px] relative">
@@ -41,41 +25,36 @@ export const Technologies = () => {
         className="flex flex-wrap items-center justify-center gap-4"
       >
         <motion.div
-          initial="initial"
-          animate="animate"
-          variants={iconVariants(1.5)}
+          animate={{ y: [10, -10] }}
+          transition={{ duration: 1.5, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
           className="p-4"
         >
           <ReactIcon />
         </motion.div>
         <motion.div 
-          initial="initial"
-          animate="animate"
-          variants={iconVariants(2.5)}
+          animate={{ y: [10, -10] }}
+          transition={{ duration: 2.5, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
           className="p-4"
         >
           <HtmlIcon />
         </motion.div>
         <motion.div 
-          initial="initial"
-          animate="animate"
-          variants={iconVariants(3)}
+          animate={{ y: [10, -10] }}
+          transition={{ duration: 3, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
           className="p-4"
         >
           <CssIcon />
         </motion.div>
         <motion.div 
-          initial="initial"
-          animate="animate"
-          variants={iconVariants(5)}
+          animate={{ y: [10, -10] }}
+          transition={{ duration: 4, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
           className="p-4"
         >
           <TailwindIcon />
         </motion.div>
         <motion.div 
-          initial="initial"
-          animate="animate"
-          variants={iconVariants(2)}
+          animate={{ y: [10, -10] }}
+          transition={{ duration: 2, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
           className="p-4"
         >
           <TypescriptIcon />
