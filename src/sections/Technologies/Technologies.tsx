@@ -26,7 +26,7 @@ export const Technologies = () => {
       >
         <motion.div
           animate={{ y: [10, -10] }}
-          transition={{ duration: 1.5, ease: "linear", repeat: Infinity, repeatType: 'loop' }}
+          transition={{ duration: 1.5, ease: "linear", repeat: Infinity, repeatType: 'reverse' }}
           className="p-4"
         >
           <ReactIcon aria-hidden="true"/>
