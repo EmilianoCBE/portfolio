@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Thin.woff2') format('woff2');
+  font-weight: 100; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Geist', sans-serif;
+  background-color: #121212;
+  color: #eaeaea;
+}
+
+.section-container {
+  width: 100%;
+  max-width: 1280px; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+@media (min-width: 640px) {
+  .section-container {
+    padding-left: 2rem;  
+    padding-right: 2rem; 
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-container {
+    padding-left: 4rem;  
+    padding-right: 4rem; 
+  }
+}
+
