@@ -26,38 +26,38 @@ export const Technologies = () => {
       >
         <motion.div
           animate={{ y: [10, -10] }}
-          transition={{ duration: 1.5, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
+          transition={{ duration: 1.5, ease: "linear", repeat: Infinity, repeatType: 'loop' }}
           className="p-4"
         >
-          <ReactIcon />
+          <ReactIcon aria-hidden="true"/>
         </motion.div>
         <motion.div 
           animate={{ y: [10, -10] }}
-          transition={{ duration: 2.5, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
+          transition={{ duration: 2.5, ease: "linear", repeat: Infinity, repeatType: 'loop' }}
           className="p-4"
         >
-          <HtmlIcon />
+          <HtmlIcon aria-hidden="true"/>
         </motion.div>
         <motion.div 
           animate={{ y: [10, -10] }}
-          transition={{ duration: 3, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
+          transition={{ duration: 3, ease: "linear", repeat: Infinity, repeatType: 'loop' }}
           className="p-4"
         >
-          <CssIcon />
+          <CssIcon aria-hidden="true"/>
         </motion.div>
         <motion.div 
           animate={{ y: [10, -10] }}
-          transition={{ duration: 4, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
+          transition={{ duration: 4, ease: "linear", repeat: Infinity, repeatType: 'loop' }}
           className="p-4"
         >
-          <TailwindIcon />
+          <TailwindIcon aria-hidden="true"/>
         </motion.div>
         <motion.div 
           animate={{ y: [10, -10] }}
-          transition={{ duration: 2, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
+          transition={{ duration: 2, ease: "linear", repeat: Infinity, repeatType: 'loop' }}
           className="p-4"
         >
-          <TypescriptIcon />
+          <TypescriptIcon aria-hidden="true"/>
         </motion.div>
       </motion.div>  
     </section>
