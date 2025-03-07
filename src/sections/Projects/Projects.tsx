@@ -84,7 +84,7 @@ export const Projects = () => {
                   ))
                 }
               </motion.div>
-            </>
+            </a>
           ))
         }
       </div>
