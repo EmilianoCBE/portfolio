@@ -26,7 +26,7 @@ export const Hero = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.8 }}
-          className="text-7xl md:text-8xl break-words font-medium text-center max-w-full relative bg-gradient-to-r from-[#eaeaea] to-stone-500 bg-clip-text tracking-tight text-transparent"
+          className="text-6xl md:text-8xl break-words font-medium text-center max-w-full relative bg-gradient-to-r from-[#eaeaea] to-stone-500 bg-clip-text tracking-tight text-transparent"
         >
           Frontend Developer
         </motion.h1>
