@@ -25,36 +25,36 @@ export const Technologies = () => {
         className="flex flex-wrap items-center justify-center gap-4"
       >
         <motion.div
-          animate={{ y: [10, -10] }}
-          transition={{ duration: 1.5, ease: "linear", repeat: Infinity, repeatType: 'reverse' }}
+          // animate={{ y: [10, -10] }}
+          // transition={{ duration: 1.5, ease: "linear", repeat: Infinity, repeatType: 'reverse' }}
           className="p-4"
         >
           <ReactIcon aria-hidden="true"/>
         </motion.div>
         <motion.div 
-          animate={{ y: [10, -10] }}
-          transition={{ duration: 2.5, ease: "linear", repeat: Infinity, repeatType: 'loop' }}
+          // animate={{ y: [10, -10] }}
+          // transition={{ duration: 2.5, ease: "linear", repeat: Infinity, repeatType: 'loop' }}
           className="p-4"
         >
           <HtmlIcon aria-hidden="true"/>
         </motion.div>
         <motion.div 
-          animate={{ y: [10, -10] }}
-          transition={{ duration: 3, ease: "linear", repeat: Infinity, repeatType: 'loop' }}
+          // animate={{ y: [10, -10] }}
+          // transition={{ duration: 3, ease: "linear", repeat: Infinity, repeatType: 'loop' }}
           className="p-4"
         >
           <CssIcon aria-hidden="true"/>
         </motion.div>
         <motion.div 
-          animate={{ y: [10, -10] }}
-          transition={{ duration: 4, ease: "linear", repeat: Infinity, repeatType: 'loop' }}
+          // animate={{ y: [10, -10] }}
+          // transition={{ duration: 4, ease: "linear", repeat: Infinity, repeatType: 'loop' }}
           className="p-4"
         >
           <TailwindIcon aria-hidden="true"/>
         </motion.div>
         <motion.div 
-          animate={{ y: [10, -10] }}
-          transition={{ duration: 2, ease: "linear", repeat: Infinity, repeatType: 'loop' }}
+          // animate={{ y: [10, -10] }}
+          // transition={{ duration: 2, ease: "linear", repeat: Infinity, repeatType: 'loop' }}
           className="p-4"
         >
           <TypescriptIcon aria-hidden="true"/>
