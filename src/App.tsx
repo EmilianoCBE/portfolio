@@ -1,47 +1,14 @@
-import { Analytics } from "@vercel/analytics/react"
-import { Footer, Navbar, Separator } from './components'
-import { About, Contact, Experience, Hero, Projects, Technologies } from './sections'
+import { AppRouter } from "./App.router"
 /*
   To do:
   - Add a language switcher
-  - Add router with route management
   - Add 404 page
-  - Acomodar letras de la sección de proyectos y de experiencia
 */
 
 function App() {
 
   return (
-    <div className='overflow-x-hidden'>
-      <Analytics />
-      <div className='fixed inset-0 -z-10'>
-        <div className='relative h-full'>
-          <div className="relative h-full w-full bg-black">
-            <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
-            </div>
-            {/* <div className="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]">
-            </div> */}
-          </div>
-        </div>
-      </div>  
-
-      <Navbar />
-      <main>
-        <Hero />
-        <Separator />
-        <Projects />
-        <Separator />
-        <Experience />
-        <Separator />
-        <Technologies />
-        <Separator />
-        <About />
-        <Separator />
-        <Contact />
-        <Separator />
-      </main>
-      <Footer />
-    </div>
+    <AppRouter />
   )
 }
 
