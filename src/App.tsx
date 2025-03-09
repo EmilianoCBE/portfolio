@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import { Footer, Navbar, Separator } from './components'
 import { About, Contact, Experience, Hero, Projects, Technologies } from './sections'
 /*
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <div className='overflow-x-hidden'>
+      <Analytics />
       <div className='fixed inset-0 -z-10'>
         <div className='relative h-full'>
           <div className="relative h-full w-full bg-black">
