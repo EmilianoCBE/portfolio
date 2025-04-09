@@ -1,13 +1,13 @@
 import { Project } from "@/models";
 
 export const projects: Project[] = [
-  {
+  /*{
     name: "Niky Landing Page",
     description: "Landing page hecha con React y TailwindCSS simulando página web de Nike.",
     image: "/images/project1.webp",
     technologies: ["React", "TailwindCSS"],
     link: "https://tailwind-nike-theta.vercel.app"
-  },
+  },*/
   {
     name: "Gym Landing Page",
     description: "Landing page hecha con React y CSS la cual muestra una página web con información de un gimnasio.",
