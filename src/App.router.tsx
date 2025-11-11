@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import { RoutesWithNotFound } from "./providers";
-import { Home } from "./pages";
+import { Home, ProjectsPage } from "./pages";
 
 interface Props {
   children?: ReactNode;
@@ -12,6 +12,7 @@ export const AppRouter = ({ children }: Props) => {
     <BrowserRouter>
       <RoutesWithNotFound>
         <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<ProjectsPage />} />
       </RoutesWithNotFound>
       {children}
     </BrowserRouter>
